@@ -1,6 +1,8 @@
 {
   "name": "esmpost",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "898b38ae"
 }
