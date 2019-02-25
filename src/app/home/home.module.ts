@@ -1,10 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
-import { RouterModule } from '@angular/router';
-
-import { HomePage } from './home.page';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
+// ionic
+import { IonicModule } from "@ionic/angular";
+// ionic app
+import { HomePage } from "./home.page";
 
 @NgModule({
   imports: [
@@ -13,7 +14,7 @@ import { HomePage } from './home.page';
     IonicModule,
     RouterModule.forChild([
       {
-        path: '',
+        path: "",
         component: HomePage
       }
     ])
